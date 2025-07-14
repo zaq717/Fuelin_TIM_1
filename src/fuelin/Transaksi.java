@@ -248,11 +248,13 @@ public class Transaksi extends javax.swing.JPanel {
                 double liter = rs.getDouble("jumlah_liter");
                 double total = rs.getDouble("total_harga");
 
-                String isiStruk = "";
+                String isiStruk = "\n";
+                isiStruk += "\u001B\u0045\u0001"; // Aktifkan Bold
                 isiStruk += "         CPM INDONESIA     \n";
+                isiStruk += "\u001B\u0045\u0000"; // Nonaktifkan Bold
                 isiStruk += "   Dsn.Sembung Ds.Margopatut \n";
-                isiStruk += "        Kec.Sawahan 64475     \n\n";
-                isiStruk += "Tanggal : " + tanggal + "\n\n";
+                isiStruk += "       Kec.Sawahan 64475     \n\n";
+                isiStruk += "Waktu   : " + tanggal + "\n\n";
                 isiStruk += "--------------------------\n\n";
                 isiStruk += "BBM     : " + jenisBBM + "\n";
                 isiStruk += "Liter   : " + liter + " L\n";

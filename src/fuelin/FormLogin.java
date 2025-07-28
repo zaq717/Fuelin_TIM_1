@@ -259,11 +259,11 @@ public class FormLogin extends javax.swing.JFrame {
 
                 /* Arahkan ke menu sesuai level */
                 switch (level) {
-                    case "ADMIN":
-                        new MenuAdmin().setVisible(true);     // Form khusus Admin
+                    case "OWNER":
+                        new MenuOwner().setVisible(true);     // Form khusus Owner
                         break;
-                    case "PETUGAS":
-                        new MenuPetugas().setVisible(true);   // Form khusus Petugas
+                    case "OPERATOR":
+                        new MenuOperator().setVisible(true);   // Form khusus Petugas
                         break;
                 }
             } else {

@@ -10,6 +10,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.JOptionPane;
@@ -48,7 +49,7 @@ public class Kas extends javax.swing.JPanel {
 
     void tampilTabel() {
         DefaultTableModel model = new DefaultTableModel();
-        model.addColumn("ID Kas");
+        model.addColumn("ID");
         model.addColumn("Jumlah");
         model.addColumn("Catatan");
         model.addColumn("Jenis");
@@ -84,9 +85,11 @@ public class Kas extends javax.swing.JPanel {
                 double totalPendapatan = rs.getDouble("total_pendapatan");
                 double totalPengeluaran = rs.getDouble("total_pengeluaran");
                 double saldo = rs.getDouble("saldo");
-                txtPendapatan.setText(String.format("%.2f", totalPendapatan));
-                txtPengeluaran.setText(String.format("%.2f", totalPengeluaran));
-                txtSaldo.setText(String.format("%.2f", saldo));
+                DecimalFormat formatter = new DecimalFormat("#,###.00");
+
+                txtPendapatan.setText(formatter.format(totalPendapatan));
+                txtPengeluaran.setText(formatter.format(totalPengeluaran));
+                txtSaldo.setText(formatter.format(saldo));
             }
         } catch (SQLException sQLException) {
             JOptionPane.showMessageDialog(null, "Gagal Memuat Data: " + sQLException.getMessage());

@@ -23,11 +23,11 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-              <Component id="pnTotalTransaksi" max="32767" attributes="0"/>
+              <Component id="pnStokPertalite" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-              <Component id="pnTotalStok" max="32767" attributes="0"/>
+              <Component id="pnStokPertamax" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-              <Component id="pnLaporan" max="32767" attributes="0"/>
+              <Component id="pnStokSolar" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -37,9 +37,9 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="pnLaporan" max="32767" attributes="0"/>
-                  <Component id="pnTotalStok" max="32767" attributes="0"/>
-                  <Component id="pnTotalTransaksi" max="32767" attributes="0"/>
+                  <Component id="pnStokSolar" max="32767" attributes="0"/>
+                  <Component id="pnStokPertamax" max="32767" attributes="0"/>
+                  <Component id="pnStokPertalite" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="351" max="-2" attributes="0"/>
           </Group>
@@ -47,29 +47,29 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="fuelin.PanelCustomRounded" name="pnTotalTransaksi">
+    <Container class="fuelin.PanelCustomRounded" name="pnStokPertalite">
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="lbTotalTransaksi" alignment="0" pref="170" max="32767" attributes="0"/>
-              <Component id="dispTotalTransaksi" alignment="1" max="32767" attributes="0"/>
+              <Component id="lbStokPertalite" alignment="0" pref="170" max="32767" attributes="0"/>
+              <Component id="dispStokPertalite" alignment="1" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                  <Component id="lbTotalTransaksi" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbStokPertalite" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="dispTotalTransaksi" max="32767" attributes="0"/>
+                  <Component id="dispStokPertalite" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="lbTotalTransaksi">
+        <Component class="javax.swing.JLabel" name="lbStokPertalite">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="1"/>
@@ -78,10 +78,10 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Total Transaksi"/>
+            <Property name="text" type="java.lang.String" value="Stok Pertalite"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="dispTotalTransaksi">
+        <Component class="javax.swing.JLabel" name="dispStokPertalite">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="33" red="33" type="rgb"/>
@@ -99,15 +99,15 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="fuelin.PanelCustomRounded" name="pnTotalStok">
+    <Container class="fuelin.PanelCustomRounded" name="pnStokPertamax">
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="lbTotalStok" alignment="0" pref="170" max="32767" attributes="0"/>
+              <Component id="lbStokPertamax" alignment="0" pref="170" max="32767" attributes="0"/>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="dispTotalStok" max="32767" attributes="0"/>
+                  <Component id="dispStokPertamax" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -116,16 +116,16 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                  <Component id="lbTotalStok" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbStokPertamax" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="dispTotalStok" pref="58" max="32767" attributes="0"/>
+                  <Component id="dispStokPertamax" pref="58" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="lbTotalStok">
+        <Component class="javax.swing.JLabel" name="lbStokPertamax">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="1"/>
@@ -134,10 +134,10 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Total Stok"/>
+            <Property name="text" type="java.lang.String" value="Stok Pertamax"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="dispTotalStok">
+        <Component class="javax.swing.JLabel" name="dispStokPertamax">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="33" red="33" type="rgb"/>
@@ -155,15 +155,15 @@
         </Component>
       </SubComponents>
     </Container>
-    <Container class="fuelin.PanelCustomRounded" name="pnLaporan">
+    <Container class="fuelin.PanelCustomRounded" name="pnStokSolar">
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="lbLaporan" alignment="0" pref="170" max="32767" attributes="0"/>
+              <Component id="lbStokSolar" alignment="0" pref="170" max="32767" attributes="0"/>
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="dispLaporan" max="32767" attributes="0"/>
+                  <Component id="dispStokSolar" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -172,16 +172,16 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                  <Component id="lbLaporan" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbStokSolar" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="dispLaporan" pref="58" max="32767" attributes="0"/>
+                  <Component id="dispStokSolar" pref="58" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="lbLaporan">
+        <Component class="javax.swing.JLabel" name="lbStokSolar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="1"/>
@@ -190,10 +190,10 @@
               <Color blue="33" green="33" red="33" type="rgb"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Laporan"/>
+            <Property name="text" type="java.lang.String" value="Stok Solar"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="dispLaporan">
+        <Component class="javax.swing.JLabel" name="dispStokSolar">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="33" green="33" red="33" type="rgb"/>

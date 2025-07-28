@@ -42,108 +42,108 @@ public class Dashboard extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        pnTotalTransaksi = new fuelin.PanelCustomRounded();
-        lbTotalTransaksi = new javax.swing.JLabel();
-        dispTotalTransaksi = new javax.swing.JLabel();
-        pnTotalStok = new fuelin.PanelCustomRounded();
-        lbTotalStok = new javax.swing.JLabel();
-        dispTotalStok = new javax.swing.JLabel();
-        pnLaporan = new fuelin.PanelCustomRounded();
-        lbLaporan = new javax.swing.JLabel();
-        dispLaporan = new javax.swing.JLabel();
+        pnStokPertalite = new fuelin.PanelCustomRounded();
+        lbStokPertalite = new javax.swing.JLabel();
+        dispStokPertalite = new javax.swing.JLabel();
+        pnStokPertamax = new fuelin.PanelCustomRounded();
+        lbStokPertamax = new javax.swing.JLabel();
+        dispStokPertamax = new javax.swing.JLabel();
+        pnStokSolar = new fuelin.PanelCustomRounded();
+        lbStokSolar = new javax.swing.JLabel();
+        dispStokSolar = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
 
-        lbTotalTransaksi.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lbTotalTransaksi.setForeground(new java.awt.Color(51, 51, 51));
-        lbTotalTransaksi.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbTotalTransaksi.setText("Total Transaksi");
+        lbStokPertalite.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lbStokPertalite.setForeground(new java.awt.Color(51, 51, 51));
+        lbStokPertalite.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbStokPertalite.setText("Stok Pertalite");
 
-        dispTotalTransaksi.setBackground(new java.awt.Color(51, 51, 51));
-        dispTotalTransaksi.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        dispTotalTransaksi.setForeground(new java.awt.Color(51, 51, 51));
-        dispTotalTransaksi.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dispTotalTransaksi.setText("0");
-        dispTotalTransaksi.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        dispStokPertalite.setBackground(new java.awt.Color(51, 51, 51));
+        dispStokPertalite.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        dispStokPertalite.setForeground(new java.awt.Color(51, 51, 51));
+        dispStokPertalite.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dispStokPertalite.setText("0");
+        dispStokPertalite.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        javax.swing.GroupLayout pnTotalTransaksiLayout = new javax.swing.GroupLayout(pnTotalTransaksi);
-        pnTotalTransaksi.setLayout(pnTotalTransaksiLayout);
-        pnTotalTransaksiLayout.setHorizontalGroup(
-            pnTotalTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(lbTotalTransaksi, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
-            .addComponent(dispTotalTransaksi, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        javax.swing.GroupLayout pnStokPertaliteLayout = new javax.swing.GroupLayout(pnStokPertalite);
+        pnStokPertalite.setLayout(pnStokPertaliteLayout);
+        pnStokPertaliteLayout.setHorizontalGroup(
+            pnStokPertaliteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(lbStokPertalite, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
+            .addComponent(dispStokPertalite, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        pnTotalTransaksiLayout.setVerticalGroup(
-            pnTotalTransaksiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnTotalTransaksiLayout.createSequentialGroup()
+        pnStokPertaliteLayout.setVerticalGroup(
+            pnStokPertaliteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnStokPertaliteLayout.createSequentialGroup()
                 .addGap(10, 10, 10)
-                .addComponent(lbTotalTransaksi)
+                .addComponent(lbStokPertalite)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(dispTotalTransaksi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(dispStokPertalite, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        lbTotalStok.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lbTotalStok.setForeground(new java.awt.Color(51, 51, 51));
-        lbTotalStok.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbTotalStok.setText("Total Stok");
+        lbStokPertamax.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lbStokPertamax.setForeground(new java.awt.Color(51, 51, 51));
+        lbStokPertamax.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbStokPertamax.setText("Stok Pertamax");
 
-        dispTotalStok.setBackground(new java.awt.Color(51, 51, 51));
-        dispTotalStok.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        dispTotalStok.setForeground(new java.awt.Color(51, 51, 51));
-        dispTotalStok.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dispTotalStok.setText("0");
-        dispTotalStok.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        dispStokPertamax.setBackground(new java.awt.Color(51, 51, 51));
+        dispStokPertamax.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        dispStokPertamax.setForeground(new java.awt.Color(51, 51, 51));
+        dispStokPertamax.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dispStokPertamax.setText("0");
+        dispStokPertamax.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        javax.swing.GroupLayout pnTotalStokLayout = new javax.swing.GroupLayout(pnTotalStok);
-        pnTotalStok.setLayout(pnTotalStokLayout);
-        pnTotalStokLayout.setHorizontalGroup(
-            pnTotalStokLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(lbTotalStok, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
-            .addGroup(pnTotalStokLayout.createSequentialGroup()
+        javax.swing.GroupLayout pnStokPertamaxLayout = new javax.swing.GroupLayout(pnStokPertamax);
+        pnStokPertamax.setLayout(pnStokPertamaxLayout);
+        pnStokPertamaxLayout.setHorizontalGroup(
+            pnStokPertamaxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(lbStokPertamax, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
+            .addGroup(pnStokPertamaxLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(dispTotalStok, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(dispStokPertamax, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        pnTotalStokLayout.setVerticalGroup(
-            pnTotalStokLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnTotalStokLayout.createSequentialGroup()
+        pnStokPertamaxLayout.setVerticalGroup(
+            pnStokPertamaxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnStokPertamaxLayout.createSequentialGroup()
                 .addGap(10, 10, 10)
-                .addComponent(lbTotalStok)
+                .addComponent(lbStokPertamax)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(dispTotalStok, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
+                .addComponent(dispStokPertamax, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
-        lbLaporan.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        lbLaporan.setForeground(new java.awt.Color(51, 51, 51));
-        lbLaporan.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbLaporan.setText("Laporan");
+        lbStokSolar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        lbStokSolar.setForeground(new java.awt.Color(51, 51, 51));
+        lbStokSolar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lbStokSolar.setText("Stok Solar");
 
-        dispLaporan.setBackground(new java.awt.Color(51, 51, 51));
-        dispLaporan.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        dispLaporan.setForeground(new java.awt.Color(51, 51, 51));
-        dispLaporan.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dispLaporan.setText("0");
-        dispLaporan.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        dispStokSolar.setBackground(new java.awt.Color(51, 51, 51));
+        dispStokSolar.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        dispStokSolar.setForeground(new java.awt.Color(51, 51, 51));
+        dispStokSolar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dispStokSolar.setText("0");
+        dispStokSolar.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        javax.swing.GroupLayout pnLaporanLayout = new javax.swing.GroupLayout(pnLaporan);
-        pnLaporan.setLayout(pnLaporanLayout);
-        pnLaporanLayout.setHorizontalGroup(
-            pnLaporanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(lbLaporan, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
-            .addGroup(pnLaporanLayout.createSequentialGroup()
+        javax.swing.GroupLayout pnStokSolarLayout = new javax.swing.GroupLayout(pnStokSolar);
+        pnStokSolar.setLayout(pnStokSolarLayout);
+        pnStokSolarLayout.setHorizontalGroup(
+            pnStokSolarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(lbStokSolar, javax.swing.GroupLayout.DEFAULT_SIZE, 170, Short.MAX_VALUE)
+            .addGroup(pnStokSolarLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(dispLaporan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(dispStokSolar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
-        pnLaporanLayout.setVerticalGroup(
-            pnLaporanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnLaporanLayout.createSequentialGroup()
+        pnStokSolarLayout.setVerticalGroup(
+            pnStokSolarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnStokSolarLayout.createSequentialGroup()
                 .addGap(10, 10, 10)
-                .addComponent(lbLaporan)
+                .addComponent(lbStokSolar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(dispLaporan, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
+                .addComponent(dispStokSolar, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -153,11 +153,11 @@ public class Dashboard extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(pnTotalTransaksi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pnStokPertalite, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(39, 39, 39)
-                .addComponent(pnTotalStok, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pnStokPertamax, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(39, 39, 39)
-                .addComponent(pnLaporan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(pnStokSolar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(35, 35, 35))
         );
         layout.setVerticalGroup(
@@ -165,37 +165,35 @@ public class Dashboard extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(56, 56, 56)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(pnLaporan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnTotalStok, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnTotalTransaksi, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(pnStokSolar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(pnStokPertamax, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(pnStokPertalite, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(351, 351, 351))
         );
     }// </editor-fold>//GEN-END:initComponents
- void loadDashboard() {
+
+    void loadDashboard() {
         try (Connection conn = Koneksi.konek()) {
 
-            // 1. Hitung total transaksi HARI INI
-            String sqlTransaksi = "SELECT COUNT(*) FROM transaksi WHERE DATE(tanggal) = CURDATE()";
-            PreparedStatement ps1 = conn.prepareStatement(sqlTransaksi);
+            String sqlPertalite = "SELECT total_stok FROM bbm WHERE id_bbm = 'BBM001'";
+            PreparedStatement ps1 = conn.prepareStatement(sqlPertalite);
             ResultSet rs1 = ps1.executeQuery();
             if (rs1.next()) {
-                dispTotalTransaksi.setText(rs1.getInt(1) + "");
+                dispStokPertalite.setText(rs1.getInt(1) + " L");
             }
 
-            // 2. Hitung total stok tersedia (jumlah dari stok)
-            String sqlStok = "SELECT SUM(jumlah_liter) FROM stok";
-            PreparedStatement ps2 = conn.prepareStatement(sqlStok);
+            String sqlPertamax = "SELECT total_stok FROM bbm WHERE id_bbm = 'BBM002'";
+            PreparedStatement ps2 = conn.prepareStatement(sqlPertamax);
             ResultSet rs2 = ps2.executeQuery();
             if (rs2.next()) {
-                dispTotalStok.setText(rs2.getInt(1) + "");
+                dispStokPertamax.setText(rs2.getInt(1) + " L");
             }
 
-            // 3. Hitung total laporan (jumlah transaksi seluruhnya)
-            String sqlLaporan = "SELECT COUNT(*) FROM laporan";
-            PreparedStatement ps3 = conn.prepareStatement(sqlLaporan);
+            String sqlSolar = "SELECT total_stok FROM bbm WHERE id_bbm = 'BBM003'";
+            PreparedStatement ps3 = conn.prepareStatement(sqlSolar);
             ResultSet rs3 = ps3.executeQuery();
             if (rs3.next()) {
-                dispLaporan.setText(rs3.getInt(1) + "");
+                dispStokSolar.setText(rs3.getInt(1) + " L");
             }
 
         } catch (SQLException e) {
@@ -206,14 +204,14 @@ public class Dashboard extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel dispLaporan;
-    private javax.swing.JLabel dispTotalStok;
-    private javax.swing.JLabel dispTotalTransaksi;
-    private javax.swing.JLabel lbLaporan;
-    private javax.swing.JLabel lbTotalStok;
-    private javax.swing.JLabel lbTotalTransaksi;
-    private fuelin.PanelCustomRounded pnLaporan;
-    private fuelin.PanelCustomRounded pnTotalStok;
-    private fuelin.PanelCustomRounded pnTotalTransaksi;
+    private javax.swing.JLabel dispStokPertalite;
+    private javax.swing.JLabel dispStokPertamax;
+    private javax.swing.JLabel dispStokSolar;
+    private javax.swing.JLabel lbStokPertalite;
+    private javax.swing.JLabel lbStokPertamax;
+    private javax.swing.JLabel lbStokSolar;
+    private fuelin.PanelCustomRounded pnStokPertalite;
+    private fuelin.PanelCustomRounded pnStokPertamax;
+    private fuelin.PanelCustomRounded pnStokSolar;
     // End of variables declaration//GEN-END:variables
 }

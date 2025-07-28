@@ -34,6 +34,7 @@ public class Pembelian extends javax.swing.JPanel {
         initComponents();
         tampilTabel();
         reset();
+        comboJenis();
 
     }
 
@@ -43,6 +44,20 @@ public class Pembelian extends javax.swing.JPanel {
         tfHargaBeli.setText(null);
         txtID.setText(null);
 
+    }
+    void comboJenis() {
+        try {
+            String sql = "SELECT*FROM bbm";
+            Connection conn = Koneksi.konek();
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+            while (rs.next()) {
+                cbJenisBBM.addItem(rs.getString("nama_bbm"));
+            }
+        } catch (SQLException e) {
+
+        }
+        cbJenisBBM.setSelectedItem(null);
     }
 
     void tampilTabel() {
@@ -167,7 +182,6 @@ public class Pembelian extends javax.swing.JPanel {
             }
         });
 
-        cbJenisBBM.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PERTALITE", "PERTAMAX", "SOLAR" }));
         cbJenisBBM.setToolTipText("");
 
         btnHapus.setBackground(new java.awt.Color(255, 0, 0));

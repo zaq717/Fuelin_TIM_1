@@ -85,7 +85,7 @@ public class Kas extends javax.swing.JPanel {
                 double totalPendapatan = rs.getDouble("total_pendapatan");
                 double totalPengeluaran = rs.getDouble("total_pengeluaran");
                 double saldo = rs.getDouble("saldo");
-                DecimalFormat formatter = new DecimalFormat("#,###.00");
+                DecimalFormat formatter = new DecimalFormat("#,###");
 
                 txtPendapatan.setText(formatter.format(totalPendapatan));
                 txtPengeluaran.setText(formatter.format(totalPengeluaran));

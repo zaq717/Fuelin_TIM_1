@@ -188,6 +188,7 @@ public class ManageUser extends javax.swing.JPanel {
             }
         });
 
+        tfidUser.setEditable(false);
         tfidUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tfidUserActionPerformed(evt);
